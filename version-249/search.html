@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="assets/style.css" />
+  <title>站内搜索-高清电影大全</title>
+  <meta name="description" content="搜索片名、标签、年份与地区，快速定位目标影片。" />
+  <meta name="keywords" content="站内搜索,电影搜索,高清电影大全" />
+  
+</head>
+<body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <div class="brand-mark">高</div>
+      <div class="brand-text"><strong>高清电影大全</strong><span>热门影片片库</span></div>
+    </a>
+    <nav class="nav-links"><a href="index.html" class="">首页</a><a href="categories.html" class="">分类</a><a href="ranking.html" class="">排行榜</a><a href="search.html" class="">搜索</a><a href="about.html" class="">关于</a></nav>
+    <div class="nav-actions">
+      <form class="search-mini" data-search-form>
+        <input type="search" name="q" placeholder="搜索片名、标签、地区…" />
+      </form>
+      <button class="menu-btn" id="menuBtn" aria-label="打开菜单">☰</button>
+    </div>
+  </div>
+  <div class="wrap mobile-menu" id="mobileMenu">
+    <nav class="nav-links"><a href="index.html" class="">首页</a><a href="categories.html" class="">分类</a><a href="ranking.html" class="">排行榜</a><a href="search.html" class="">搜索</a><a href="about.html" class="">关于</a></nav>
+    <form class="search-mini mobile-search" data-search-form>
+      <input type="search" name="q" placeholder="搜索片名、标签、地区…" />
+    </form>
+  </div>
+</header>
+
+
+<main>
+  <section class="page-hero">
+    <div class="wrap search-page">
+      <div class="search-panel">
+        <span class="badge">站内搜索</span>
+        <h1>搜索影片</h1>
+        <p>支持片名、标签、地区、类型、年份与简介关键词检索。</p>
+        <form data-search-form>
+          <input id="searchInput" class="search-input" type="search" placeholder="输入关键词，例如：科幻、家庭、美国、2024" />
+          <div class="hero-actions"><button class="btn btn-primary" type="submit">开始搜索</button><a class="btn btn-ghost" href="categories.html">返回分类</a></div>
+        </form>
+        <div class="hero-stats" style="grid-template-columns:repeat(2,minmax(0,1fr));margin-top:18px;"><div class="stat"><strong>2000</strong><span>影片总量</span></div><div class="stat"><strong id="searchCount">0</strong><span>搜索结果</span></div></div>
+      </div>
+      <div class="search-results"><div class="section-title" style="margin-bottom:14px;"><div><h2 style="font-size:22px;">搜索结果</h2><p>输入关键词后自动筛选。</p></div></div><div id="searchResults"></div></div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div>© 2026 高清电影大全 · 高清电影内容精选</div>
+    <div class="links"><a href="about.html">关于</a> · <a href="support.html">帮助</a> · <a href="copyright.html">版权声明</a></div>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

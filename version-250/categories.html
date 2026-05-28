@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>分类总览-热播电影</title>
+  <meta name="description" content="热播电影分类总览，提供多分区片库入口，支持浏览热门电影、高清电影与多题材影片。">
+  <meta name="keywords" content="热播电影,热门电影片库,高清电影,电影观看,热门影片,电影推荐">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="分类总览-热播电影">
+  <meta property="og:description" content="热播电影分类总览，提供多分区片库入口，支持浏览热门电影、高清电影与多题材影片。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/styles.css">
+  
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="index.html" aria-label="热播电影首页">
+      <span class="logo-mark">▶</span>
+      <span class="logo-text">热播电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link is-active" href="categories.html">分类</a>
+      <a class="nav-link" href="rankings.html">排行榜</a>
+      <a class="nav-link" href="search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-button" type="button" data-menu-button aria-label="打开导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" data-mobile-nav>
+    <form class="mobile-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <a class="mobile-nav-link" href="index.html">首页</a>
+    <a class="mobile-nav-link is-active" href="categories.html">分类</a>
+    <a class="mobile-nav-link" href="rankings.html">排行榜</a>
+    <a class="mobile-nav-link" href="search.html">搜索</a>
+  </div>
+</header>
+<main>
+
+<section class="page-hero container">
+  <span class="eyebrow">Categories</span>
+  <h1>分类总览</h1>
+  <p>按独立分区浏览片库，每个分区页面都包含可点击的影片卡片与详情入口。</p>
+</section>
+<section class="content-section container">
+  <div class="overview-grid">
+    
+<a class="overview-tile" href="category-hot-movies.html">
+  <span class="overview-cover" style="background-image: url('145.jpg');"></span>
+  <span class="overview-content">
+    <strong>热播精选</strong>
+    <em>聚合高关注度影片，适合快速进入片库浏览。</em>
+  </span>
+</a>
+    
+<a class="overview-tile" href="category-hd-library.html">
+  <span class="overview-cover" style="background-image: url('147.jpg');"></span>
+  <span class="overview-content">
+    <strong>高清片库</strong>
+    <em>集中展示高清电影内容，便于按片单连续浏览。</em>
+  </span>
+</a>
+    
+<a class="overview-tile" href="category-top-rated.html">
+  <span class="overview-cover" style="background-image: url('69.jpg');"></span>
+  <span class="overview-content">
+    <strong>口碑佳片</strong>
+    <em>收录故事性与观影热度兼具的片库内容。</em>
+  </span>
+</a>
+    
+<a class="overview-tile" href="category-new-streaming.html">
+  <span class="overview-cover" style="background-image: url('77.jpg');"></span>
+  <span class="overview-content">
+    <strong>新片速递</strong>
+    <em>整理近期上新与热门推荐，方便发现新鲜片单。</em>
+  </span>
+</a>
+    
+<a class="overview-tile" href="category-classic-cinema.html">
+  <span class="overview-cover" style="background-image: url('139.jpg');"></span>
+  <span class="overview-content">
+    <strong>经典回看</strong>
+    <em>适合回看经典、长尾热播与多年代影片。</em>
+  </span>
+</a>
+    
+<a class="overview-tile" href="category-global-choice.html">
+  <span class="overview-cover" style="background-image: url('4.jpg');"></span>
+  <span class="overview-content">
+    <strong>环球佳作</strong>
+    <em>覆盖多地区、多类型影视内容，方便交叉浏览。</em>
+  </span>
+</a>
+    
+<a class="overview-tile" href="category-genre-theater.html">
+  <span class="overview-cover" style="background-image: url('86.jpg');"></span>
+  <span class="overview-content">
+    <strong>类型剧场</strong>
+    <em>多题材混合展映，适合按兴趣继续筛选。</em>
+  </span>
+</a>
+    
+<a class="overview-tile" href="category-weekend-list.html">
+  <span class="overview-cover" style="background-image: url('92.jpg');"></span>
+  <span class="overview-content">
+    <strong>周末片单</strong>
+    <em>适合轻松挑片与周末观影的综合分区。</em>
+  </span>
+</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="footer-logo" href="index.html">
+        <span class="logo-mark">▶</span>
+        <span>热播电影</span>
+      </a>
+      <p>展示当前关注度较高的热播电影，涵盖多种题材影片，便于快速浏览站内热门内容。</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类总览</a>
+      <a href="rankings.html">热门排行</a>
+      <a href="search.html">站内搜索</a>
+    </div>
+    <div class="footer-links">
+      <a href="category-hot-movies.html">热播精选</a>
+      <a href="category-hd-library.html">高清片库</a>
+      <a href="category-top-rated.html">口碑佳片</a>
+      <a href="category-new-streaming.html">新片速递</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/app.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
